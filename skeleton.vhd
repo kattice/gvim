@@ -1,7 +1,8 @@
 --------------------------------- FILE HEADER -------------------------------{{{
 --
 -- File:            [:VIM_EVAL:]expand("%:t")[:END_EVAL:]
--- Last Modified:   10 Apr 2017  09:45AM
+-- Last Modified:   20 Dec 2020  12:54PM
+-- Designer:        Kevin Y.
 --
 -- Module Description
 --
@@ -20,8 +21,8 @@ entity [:VIM_EVAL:]expand("%:t:r")[:END_EVAL:] is
 --      width : integer := 2
 --  );
     port (
-        o_module_date    : out std_logic_vector(31 downto 0) := x"0410_2017" ;
-        o_module_time    : out std_logic_vector(31 downto 0) := x"0945_1000" ;
+        o_module_date    : out std_logic_vector(31 downto 0) := x"1220_2020" ;
+        o_module_time    : out std_logic_vector(31 downto 0) := x"1254_3900" ;
         i_reset          : in std_logic                                      ;
         i_clk            : in std_logic
     );
