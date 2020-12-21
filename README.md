@@ -14,6 +14,8 @@ dotvim
 2. copy vim config files from github
     
         git clone https://github.com/bmschulz/dotvim.git
+        or
+        git clone https://github.com/kattice/gvim.git
 
 3. move and rename files
 
@@ -29,6 +31,8 @@ dotvim
 2. copy vim config files from github.  From the home directory type:
     
         git clone https://github.com/bmschulz/dotvim.git    
+        or
+        git clone https://github.com/kattice/gvim.git
 
 3. move and rename files
 
