@@ -1315,10 +1315,14 @@ noremap H ^
 noremap L $
 vnoremap L g_
 
+nnoremap <C-t> :tabnew<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
+
 " Buffer related mappings
 nnoremap <C-space> :bn<CR>
-nnoremap <C-h> :bp<CR>
-nnoremap <C-l> :bn<CR>
+"nnoremap <C-h> :bp<CR>
+"nnoremap <C-l> :bn<CR>
 
 " Delete buffer but don't close window
 command! BD :bn|:bd#
@@ -1327,7 +1331,8 @@ command! BD :bn|:bd#
 " when creating a new split, split vertically
 nnoremap <C-w>] <C-w>]<C-w>Lzvzz15
 nnoremap <C-]> <C-]>zvzz15
-nnoremap <C-t> <C-T>zvzz15
+
+"nnoremap <C-t> <C-T>zvzz15
 
 " Keep cursor in the middle of the window when jumping in JUMP LIST
 nnoremap <Tab> <C-I>zvzz15
